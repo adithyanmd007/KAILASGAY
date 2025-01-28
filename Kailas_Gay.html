@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats, You're Gay!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(
+                red,
+                orange,
+                yellow,
+                green,
+                blue,
+                indigo,
+                violet
+            );
+            background-size: 100% 100%;
+            animation: rainbow-bg 5s linear infinite;
+            overflow: hidden;
+        }
+
+        @keyframes rainbow-bg {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 0% 100%; }
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 0.5rem;
+            animation: pop 1s ease infinite alternate;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #333;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: #444;
+        }
+
+        @keyframes pop {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Congrats, [Friend's Name]! 🎉</h1>
+    <p>You're officially fabulous, and the world is brighter because of you! 🌈</p>
+    <p>Coming out takes immense courage, and I’m so proud of you for embracing who you truly are. You’ve shown incredible strength and authenticity, and it’s inspiring to everyone around you. Love is love, and you deserve all the happiness in the world for being unapologetically yourself. 🏳️‍🌈</p>
+    <button onclick="celebrate()">Celebrate!</button>
+
+    <script>
+        function celebrate() {
+            alert("🌈 Shine bright, you're amazing! Love is love!");
+            alert("Varshitha says it's nothing to be embarrassed about and supports you. Adwaith congratulates you and agrees to start a dating profile for you on Tinder. He also says if he doesn't get a girlfriend, he will date you!");
+        }
+    </script>
+</body>
+</html>
